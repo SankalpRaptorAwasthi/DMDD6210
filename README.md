@@ -18,3 +18,9 @@ This platform offers features such as purchasing and refilling tickets, passes, 
 2. This database should support daily operation tracking, offer insights into business trends over specific durations, and highlight opportunities for Boston Transportation system enhancements.
 3. The platform must facilitate travel through multiple recharge methods, such as Ride credits, Pass purchases, and Wallet refills.
 4. It's crucial for the system to identify and nullify unauthorized transactions, especially those stemming from third-party breaches, by recognizing the device used during the recharging process.
+
+# ER Diagram
+
+![image](https://github.com/SankalpRaptorAwasthi/DMDD6210/assets/113941009/06095532-4fef-4189-97ef-baeb4dfbb8dc)
+
+
