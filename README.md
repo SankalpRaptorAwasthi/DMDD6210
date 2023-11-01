@@ -21,6 +21,7 @@ This platform offers features such as purchasing and refilling tickets, passes, 
 
 # ER Diagram
 
-![image](https://github.com/SankalpRaptorAwasthi/DMDD6210/assets/113941009/06095532-4fef-4189-97ef-baeb4dfbb8dc)
 
 
+
+![p3 (1)](https://github.com/SankalpRaptorAwasthi/DMDD6210/assets/144951722/1cebefcc-f435-4010-a34e-ac34f18289fd)
