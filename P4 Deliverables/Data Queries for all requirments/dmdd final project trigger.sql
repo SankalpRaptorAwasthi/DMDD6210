@@ -1,3 +1,5 @@
+-- Trigger for updating the status of tickets when a card expires
+
 CREATE TRIGGER UpdateTicketStatusOnCardExpiry
 ON CARD
 AFTER UPDATE
@@ -33,6 +35,5 @@ GO
 
 UPDATE CARD
 SET Card_Expiry = '2023-11-27'
-WHERE Ticket_ID = 1;
+WHERE Ticket_IDÂ =Â 1;
 
-select * from TICKET
