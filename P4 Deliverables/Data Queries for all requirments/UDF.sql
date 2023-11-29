@@ -41,8 +41,6 @@ INNER JOIN TICKET ON OPERATIONS.Ticket_ID = TICKET.Ticket_ID
 INNER JOIN CARD ON TICKET.Ticket_ID = CARD.Ticket_ID
 WHERE (OPERATIONS.Op_Description = 'Bus Travel' or OPERATIONS.Op_Description = 'T Travel') AND OPERATIONS.OP_User_Status = 'authorised';
 
-select * from OPERATIONS
-
 --Create a UDF to calculate the remaining amount after deducting $1.75 for Bus travel
 
 CREATE FUNCTION DeductAmountForBus(@PassAmount DECIMAL(10, 2))
@@ -59,7 +57,7 @@ BEGIN
 
     RETURN @RemainingAmount;
 END;
-drop function DeductAmountForBus
+
 
 -- Create a function to get the Pass Amount for a given Ticket_ID
 
