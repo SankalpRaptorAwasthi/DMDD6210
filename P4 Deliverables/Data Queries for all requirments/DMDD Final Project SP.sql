@@ -118,10 +118,6 @@ Stored Procedure: OptimizeRoutesAndLinesUtilization
 Business Logic:
 Identify High and Low Demand Routes and Lines: Based on ticket sales and operations data, identify which routes 
 and lines have the highest and lowest demand.
-
-Calculate Route and Line Efficiency: Use the number of trips and ticket sales to evaluate 
-the efficiency of each route and line.
-
 */
 
 CREATE PROCEDURE OptimizeRoutesAndLinesUtilization
