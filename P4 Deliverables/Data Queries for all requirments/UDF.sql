@@ -85,7 +85,4 @@ INNER JOIN TICKET ON OPERATIONS.Ticket_ID = TICKET.Ticket_ID
 INNER JOIN PASS ON TICKET.Ticket_ID = PASS.Ticket_ID
 WHERE (OPERATIONS.Op_Description = 'Bus Travel' or OPERATIONS.Op_Description = 'T Travel') AND OPERATIONS.OP_User_Status = 'authorised';
 
-select * from OPERATIONS
 
-DELETE FROM OPERATIONS
-WHERE Operation_ID = 20;
